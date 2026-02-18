@@ -8,7 +8,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project processes **50 English documents** into **449 overlapping chunks**,
 builds a **FAISS vector index** using `sentence-transformers/all-MiniLM-L6-v2`
@@ -18,7 +18,7 @@ evaluated using exact match, substring match, and semantic similarity metrics.
 
 ---
 
-## 📊 Results
+## Results
 
 ### Answerable Queries (350 questions)
 
@@ -54,7 +54,7 @@ evaluated using exact match, substring match, and semantic similarity metrics.
 
 ---
 
-## 🔄 Pipeline Architecture
+## Pipeline Architecture
 
 ```
 Raw Documents (50 English docs)
@@ -83,7 +83,7 @@ Raw Documents (50 English docs)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ├── phase1_english_pipeline.ipynb    # Main pipeline notebook
@@ -98,7 +98,7 @@ Raw Documents (50 English docs)
 
 ---
 
-## 🚀 Quickstart
+## Quickstart
 
 ```bash
 # 1. Install dependencies
